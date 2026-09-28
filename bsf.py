@@ -27,6 +27,7 @@ if __name__ == "__main__":
             if (x, y + 1) not in visited:
                 queue.append((x, y + 1))
                 visited.add((x, y + 1))
+                parents[(x, y + 1)] = (x, y)
 
         if (x - 1) >= 0 and (x - 1, y) in grad:
             if (x - 1, y) not in visited:
