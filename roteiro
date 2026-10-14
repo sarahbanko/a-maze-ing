@@ -1,0 +1,11 @@
+O que falta fazer:
+- 42;
+- conectar o bfs com o restante do código - ordem de execução;
+- imprimir com ASCII;
+- fazer a classe MazeGenerator
+- arquivo tar.gz
+- READ.me
+- flag PERFECT:
+Suportar PERFECT=True e PERFECT=False. Hoje o DFS de vocês está gerando essencialmente um perfect maze. No modo False, o subject exige loops, pelo menos duas rotas independentes, poucos dead-ends e cantos/centro acessíveis.
+- Gerar o arquivo OUTPUT_FILE no formato correto: uma hexadecimal por célula, linha por linha; depois linha vazia, ENTRY, EXIT e o shortest path em N/E/S/W.
+
